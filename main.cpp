@@ -8,9 +8,9 @@ int main()
     cout<< "a= ";cin >> a;
     cout<< "b= ";cin >> b;
     cout<< "c= ";cin >> c;
-    int delta=b*b-4*a*c;
-    int x1=(-b+sqrt(delta))/(2*a);
-    int x2=(-b-sqrt(delta))/(2*a);
+    float delta=b*b-4*a*c;
+    float x1=(-b+sqrt(delta))/(2*a);
+    float x2=(-b-sqrt(delta))/(2*a);
     if(a==0)
     {
         cout << "this is not a polynomial function";
